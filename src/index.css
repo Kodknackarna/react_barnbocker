@@ -1,0 +1,35 @@
+*{
+  background-color: rgb(40, 40, 62);
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  background-color: white;
+  height: 10rem;
+}
+
+.cartDiv{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.cart{
+  color: pink;
+}
+
+.counter{
+  background-color: white;
+  border-radius: 50%;
+  width: 15%;
+  aspect-ratio: 1;
+  text-align: center;
+}
+
